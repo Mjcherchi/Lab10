@@ -29,7 +29,7 @@ void loop()
     reading = Serial.read();
     Serial1.print(reading);
   }
-  delay(100);
+  delay(1);
   
   if (Serial1.available() > 0)
   {
